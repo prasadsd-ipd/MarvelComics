@@ -1,2 +1,2 @@
 # TopComics
-Shows a list of comics from Marvel
+Shows a list of comics
