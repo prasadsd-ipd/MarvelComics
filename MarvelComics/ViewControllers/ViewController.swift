@@ -30,30 +30,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let request = URLRequest(url: APIConstants.apiURL!)
-        URLSession.shared.dataTask(with: request) { [weak self] (data, response, error) in
-            if let error = error {
-                debugPrint(error)
-            } else if let data = data {
-                do {
-                    let issuesResponse = try JSONDecoder().decode(IssuesResponse.self, from: data)
-                    let results = issuesResponse.results
-                    for result in results {
-                        print("\(result.name) - \(String(describing: result.aliases))\n\(result.deck)")
-                    }
-//                    let result = try JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
-//                    debugPrint(result as Any)
-//                    DispatchQueue.main.async {
-//                        self?.defaultLabel.text = "Data Downloaded"
-//                    }
-                } catch let error as NSError {
-                    debugPrint(error)
-//                    DispatchQueue.main.async {
-//                        self?.defaultLabel.text = "Error while parsing"
-//                    }
-                }
-            }
-        }.resume()
     }
 
     //MARK:- Custom Methods
@@ -62,7 +38,9 @@ class ViewController: UIViewController {
             if error != nil {
                 self?.showAlert(of: .noDataAvailable)
             } else {
-                self?.comicsTableView.reloadData()
+                DispatchQueue.main.async {
+                    self?.comicsTableView.reloadData()
+                }
             }
         }
     }
@@ -87,3 +65,23 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel?.totalComics ?? 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: ComicTableViewCell.reuseIdentifier, for: indexPath) as! ComicTableViewCell
+        
+        guard let viewModel = viewModel else {
+            fatalError("No View Model Present")
+        }
+        
+        // Configuring cell
+        cell.configure(with: viewModel.cellViewModel(for: indexPath.row))
+        
+        return cell
+    }
+    
+    
+}

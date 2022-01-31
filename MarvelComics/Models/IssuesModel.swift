@@ -26,16 +26,17 @@ struct IssuesResponse: Codable {
 
 // MARK: - Result
 struct Result: Codable {
-    let aliases, deck: String?
-    let name: String
-    let image: Image
+    let name: String?
+    let aliases: String?
+    let deck: String?
+    let image: Image?
 }
 
 // MARK: - Image
 struct Image: Codable {
-    let iconURL, mediumURL, screenURL, screenLargeURL: String
+    let iconURL, mediumURL, screenURL, screenLargeURL: String?
     let smallURL, superURL, thumbURL, tinyURL: String
-    let originalURL: String
+    let originalURL: String?
     let imageTags: String
 
     enum CodingKeys: String, CodingKey {

@@ -18,7 +18,6 @@
 		D3BAAFDB27A698F2003387B1 /* ComicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BAAFDA27A698F2003387B1 /* ComicTableViewCell.swift */; };
 		D3BAAFDE27A69AA4003387B1 /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BAAFDC27A69AA3003387B1 /* ComicViewModel.swift */; };
 		D3BAAFDF27A69AA4003387B1 /* ComicCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BAAFDD27A69AA4003387B1 /* ComicCellViewModel.swift */; };
-		D3BAAFE327A69F66003387B1 /* ComicRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BAAFE227A69F66003387B1 /* ComicRepresentable.swift */; };
 		D3BAAFE627A6A423003387B1 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BAAFE527A6A423003387B1 /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		D3BAAFDA27A698F2003387B1 /* ComicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicTableViewCell.swift; sourceTree = "<group>"; };
 		D3BAAFDC27A69AA3003387B1 /* ComicViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicViewModel.swift; sourceTree = "<group>"; };
 		D3BAAFDD27A69AA4003387B1 /* ComicCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicCellViewModel.swift; sourceTree = "<group>"; };
-		D3BAAFE227A69F66003387B1 /* ComicRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicRepresentable.swift; sourceTree = "<group>"; };
 		D3BAAFE527A6A423003387B1 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				D3BAAFE427A6A3C9003387B1 /* Extensions */,
-				D3BAAFE127A69C9C003387B1 /* Protocols */,
 				D3BAAFE027A69C8D003387B1 /* ViewModels */,
 				D3BAAFD927A698D1003387B1 /* Custom Cells */,
 				D3BAAFD627A660E5003387B1 /* Models */,
@@ -176,14 +173,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		D3BAAFE127A69C9C003387B1 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				D3BAAFE227A69F66003387B1 /* ComicRepresentable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		D3BAAFE427A6A3C9003387B1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,7 +254,6 @@
 			files = (
 				D3BAAFE627A6A423003387B1 /* UIImageView+Extensions.swift in Sources */,
 				D394AD6727A159D300B49623 /* ViewController.swift in Sources */,
-				D3BAAFE327A69F66003387B1 /* ComicRepresentable.swift in Sources */,
 				D394AD7F27A1A5FF00B49623 /* URLConstants.swift in Sources */,
 				D3BAAFDB27A698F2003387B1 /* ComicTableViewCell.swift in Sources */,
 				D394AD6327A159D300B49623 /* AppDelegate.swift in Sources */,

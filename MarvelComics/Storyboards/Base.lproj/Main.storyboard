@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbv-xk-hRr">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbv-xk-hRr">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="ged-Ze-4Ez"/>
@@ -29,16 +29,16 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ComicTableViewCell" rowHeight="250" id="ok5-If-YiI" userLabel="TableViewCell" customClass="TableViewCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ComicTableViewCell" rowHeight="250" id="ok5-If-YiI" userLabel="TableViewCell" customClass="ComicTableViewCell" customModule="MarvelComics" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="250"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ok5-If-YiI" id="ade-KT-L6l">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jlw-Ir-k4h">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jlw-Ir-k4h">
                                                     <rect key="frame" x="0.0" y="0.0" width="165.5" height="250"/>
-                                                    <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Cjz-uz-jq2">
                                                     <rect key="frame" x="175.5" y="21" width="208.5" height="208"/>
@@ -75,8 +75,18 @@
                                                 <constraint firstItem="Jlw-Ir-k4h" firstAttribute="width" secondItem="ade-KT-L6l" secondAttribute="width" multiplier="0.4" id="zhc-3K-CzF"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="comicAlaises" destination="uRC-TI-pLF" id="AZi-Cf-6dd"/>
+                                            <outlet property="comicDescription" destination="RNb-fB-GcF" id="J6K-ZQ-gc0"/>
+                                            <outlet property="comicImageView" destination="Jlw-Ir-k4h" id="rvh-7m-0be"/>
+                                            <outlet property="comicTitle" destination="l0u-rl-VMr" id="YXG-az-n4P"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="tBv-Rp-hP5"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="nNy-Du-wMt"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1mF-0x-y6p"/>
@@ -91,6 +101,9 @@
                             <constraint firstItem="big-rs-Q7R" firstAttribute="bottom" secondItem="1mF-0x-y6p" secondAttribute="bottom" id="avq-LM-1Bz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="comicsTableView" destination="big-rs-Q7R" id="ueU-KC-uwz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -100,9 +113,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

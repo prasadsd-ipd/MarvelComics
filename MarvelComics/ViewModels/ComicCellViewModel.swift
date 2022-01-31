@@ -11,27 +11,25 @@ struct ComicCellViewModel {
     
     // MARK: - Properties
     
-    let comicData: ComicRepresentable?
+    var comicData: Result
     
     // MARK: -
-    var title: String {
-        return comicData?.title ?? "Comic Name"
+    var name: String {
+        return comicData.name ?? "No Name"
     }
     
     var aliases: String {
-        return comicData?.aliases ?? "Other Names"
+        return comicData.aliases ?? "No Aliases"
     }
     
     var deck: String {
-        return comicData?.deck ?? "Comic Description"
+        return comicData.deck ?? "Description not available"
     }
     
-    var imagePath: String {
-        return comicData?.imagePath ?? "Comic Poster"
+    var image: String {
+        guard let imageurl = comicData.image!.originalURL else {
+            return "No ImageData"
+        }
+        return imageurl
     }
-    
-}
-
-extension ComicCellViewModel: ComicRepresentable {
-
 }

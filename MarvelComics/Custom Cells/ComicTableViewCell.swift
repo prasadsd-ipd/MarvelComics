@@ -33,11 +33,11 @@ class ComicTableViewCell: UITableViewCell {
     
     // MARK: - Configuration
     
-    func configure(with representable: ComicRepresentable) {
+    func configure(with result: ComicCellViewModel) {
 
-        comicTitle.text = representable.title
-        comicAlaises.text = representable.aliases
-        comicDescription.text = representable.deck
-        comicImageView?.loadThumbnail(urlString: representable.imagePath)
+        comicTitle.text = result.name
+        comicAlaises.text = result.aliases
+        comicDescription.text = result.deck
+        comicImageView?.loadThumbnail(urlString: result.image)
     }
 }
