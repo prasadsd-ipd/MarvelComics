@@ -33,12 +33,12 @@ class ComicViewModel {
     init() {
         fetchComicData()
     }
-        func cellViewModel(for index: Int) -> ComicCellViewModel {
-            return ComicCellViewModel(comicData: (comicsList?[index])!)
-        }
-        
-        //MARK:- Helper Methods
-        /// Fetches Comics list
+    func cellViewModel(for index: Int) -> ComicCellViewModel {
+        return ComicCellViewModel(comicData: (comicsList?[index])!)
+    }
+    
+    //MARK:- Helper Methods
+    /// Fetches Comics list
     func fetchComicData() {
         let comicsRequest = URLRequest(url: APIConstants.apiURL!)
         URLSession.shared.dataTask(with: comicsRequest) { [weak self] (data, response, error) in
@@ -55,15 +55,5 @@ class ComicViewModel {
                 }
             }
         }.resume()
-
-    }
-
-    func dateFormatter(_ date: String) -> String {
-        
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = .short
-        guard let requiredDate = dateFormatter.date(from: date) else { return date }
-        dateFormatter.dateStyle = .medium
-        return dateFormatter.string(from: requiredDate)
     }
 }

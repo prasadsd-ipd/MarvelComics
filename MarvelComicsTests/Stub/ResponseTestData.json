@@ -1,0 +1,572 @@
+{
+   "error":"OK",
+   "limit":100,
+   "offset":0,
+   "number_of_page_results":100,
+   "number_of_total_results":149181,
+   "status_code":1,
+   "results":[
+      {
+         "aliases":"Gim Allon\nMicro Lad\nLeviathan",
+         "deck":"Colossal Boy is a member of the Legion of Super-Heroes who can increase his size and strength to gigantic levels.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/11112\/111123579\/7182639-colossal%20boy.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Colossal Boy"
+      },
+      {
+         "aliases":"Im\nImra Ardeen\nImra Ardeen-Ranzz\nSaturn Woman",
+         "deck":"Imra Ardeen is a founding member of the Legion of Super-Heroes in the 30th and 31st centuries under the code name Saturn Girl. Though all of the inhabitants of her homeworld of Titan are telepaths, Imra's telepathy ranks among the strongest of her race. Saturn Girl is the first ever female character to lead a super-team in comic book history.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/11112\/111123579\/7182635-saturn%20girl.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Saturn Girl"
+      },
+      {
+         "aliases":null,
+         "deck":"Elysion was the leader of Terra Firma and is an enemy of the Legion of Super-Heroes.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/2\/28079\/873063-elysion__03__by_barry_kitson__004__01.png",
+            "image_tags":"All Images,Comic Artwork,Elysion,Submissions"
+         },
+         "name":"Elysion"
+      },
+      {
+         "aliases":null,
+         "deck":null,
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/199540-76512-bodger.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/199540-76512-bodger.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/199540-76512-bodger.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/199540-76512-bodger.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/199540-76512-bodger.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/199540-76512-bodger.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/199540-76512-bodger.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/199540-76512-bodger.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/199540-76512-bodger.jpg",
+            "image_tags":"All Images,Bodger"
+         },
+         "name":"Bodger"
+      },
+      {
+         "aliases":null,
+         "deck":null,
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/199539-136750-bonce.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/199539-136750-bonce.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/199539-136750-bonce.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/199539-136750-bonce.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/199539-136750-bonce.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/199539-136750-bonce.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/199539-136750-bonce.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/199539-136750-bonce.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/199539-136750-bonce.jpg",
+            "image_tags":"All Images,Bonce"
+         },
+         "name":"Bonce"
+      },
+      {
+         "aliases":"Barneydd",
+         "deck":null,
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/11\/111746\/5151799-croppedimage318436-louiscrombintera.png",
+            "image_tags":"All Images"
+         },
+         "name":"Barney"
+      },
+      {
+         "aliases":null,
+         "deck":null,
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/199570-18186-zepha.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/199570-18186-zepha.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/199570-18186-zepha.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/199570-18186-zepha.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/199570-18186-zepha.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/199570-18186-zepha.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/199570-18186-zepha.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/199570-18186-zepha.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/199570-18186-zepha.jpg",
+            "image_tags":"All Images,Zepha"
+         },
+         "name":"Zepha"
+      },
+      {
+         "aliases":null,
+         "deck":null,
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/199572-151930-phren.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/199572-151930-phren.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/199572-151930-phren.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/199572-151930-phren.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/199572-151930-phren.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/199572-151930-phren.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/199572-151930-phren.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/199572-151930-phren.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/199572-151930-phren.jpg",
+            "image_tags":"All Images,Phren"
+         },
+         "name":"Phren"
+      },
+      {
+         "aliases":"Tyrannosaur",
+         "deck":"Tyrannosaurus is the leader of TNTNT.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/287556-134181-tyrannosaurus.jpg",
+            "image_tags":"All Images,Tyrannosaurus"
+         },
+         "name":"Tyrannosaurus"
+      },
+      {
+         "aliases":null,
+         "deck":"Neuronne has the ability to disrupt the electrical impulses between a brain's synapses. She is a member of TNTNT.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/282186-29190-neuronne.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/282186-29190-neuronne.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/282186-29190-neuronne.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/282186-29190-neuronne.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/282186-29190-neuronne.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/282186-29190-neuronne.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/282186-29190-neuronne.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/282186-29190-neuronne.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/282186-29190-neuronne.jpg",
+            "image_tags":"All Images,Neuronne"
+         },
+         "name":"Neuronne"
+      },
+      {
+         "aliases":"Paul Ntumbo",
+         "deck":"Taboo has the powers of the jungle, faster than a cheetah and stronger than an ape.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/304394-105724-taboo.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/304394-105724-taboo.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/304394-105724-taboo.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/304394-105724-taboo.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/304394-105724-taboo.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/304394-105724-taboo.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/304394-105724-taboo.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/304394-105724-taboo.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/304394-105724-taboo.jpg",
+            "image_tags":"All Images,Taboo"
+         },
+         "name":"Taboo"
+      },
+      {
+         "aliases":"Beanpole",
+         "deck":"Yrial is a native of a mysterious culture that resides on an island in the sky. She came down to Earth to investigate the Jumpstart and became a member of the Strangers.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/77\/472073-yrial.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/77\/472073-yrial.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/77\/472073-yrial.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/77\/472073-yrial.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/77\/472073-yrial.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/77\/472073-yrial.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/77\/472073-yrial.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/77\/472073-yrial.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/77\/472073-yrial.jpg",
+            "image_tags":"All Images,Art,Yrial"
+         },
+         "name":"Yrial"
+      },
+      {
+         "aliases":"Leon Balford",
+         "deck":"Zip Zap uses his super speed as a member of the Strangers.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/13\/134753\/5994349-img_7409.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/13\/134753\/5994349-img_7409.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/13\/134753\/5994349-img_7409.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/13\/134753\/5994349-img_7409.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/13\/134753\/5994349-img_7409.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/13\/134753\/5994349-img_7409.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/13\/134753\/5994349-img_7409.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/13\/134753\/5994349-img_7409.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/13\/134753\/5994349-img_7409.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Zip Zap"
+      },
+      {
+         "aliases":"Hugh Fox",
+         "deck":null,
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/5\/50736\/952854-grenade.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/5\/50736\/952854-grenade.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/5\/50736\/952854-grenade.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/5\/50736\/952854-grenade.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/5\/50736\/952854-grenade.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/5\/50736\/952854-grenade.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/5\/50736\/952854-grenade.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/5\/50736\/952854-grenade.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/5\/50736\/952854-grenade.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Grenade"
+      },
+      {
+         "aliases":"Dave \nCastiglione",
+         "deck":"Spectral is one of the first openly gay characters in comic books. His powers were related to each color in the visible light spectrum.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/5\/50736\/952836-spectral.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/5\/50736\/952836-spectral.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/5\/50736\/952836-spectral.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/5\/50736\/952836-spectral.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/5\/50736\/952836-spectral.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/5\/50736\/952836-spectral.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/5\/50736\/952836-spectral.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/5\/50736\/952836-spectral.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/5\/50736\/952836-spectral.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Spectral"
+      },
+      {
+         "aliases":"Elena LaBrava",
+         "deck":"Lady Killer is a member of the Strangers. Her ability is unerring aim.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/13\/134753\/5994353-img_7380.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/13\/134753\/5994353-img_7380.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/13\/134753\/5994353-img_7380.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/13\/134753\/5994353-img_7380.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/13\/134753\/5994353-img_7380.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/13\/134753\/5994353-img_7380.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/13\/134753\/5994353-img_7380.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/13\/134753\/5994353-img_7380.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/13\/134753\/5994353-img_7380.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Lady Killer"
+      },
+      {
+         "aliases":null,
+         "deck":"Naiad is a member of TNTNT. She has power over water, conjuring and controlling it. Her powers are both mystical and scientific in nature.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/282048-67056-naiad.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/282048-67056-naiad.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/282048-67056-naiad.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/282048-67056-naiad.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/282048-67056-naiad.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/282048-67056-naiad.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/282048-67056-naiad.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/282048-67056-naiad.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/282048-67056-naiad.jpg",
+            "image_tags":"All Images,Naiad"
+         },
+         "name":"Naiad"
+      },
+      {
+         "aliases":null,
+         "deck":"Tugun is a member of TNTNT.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/282193-62440-tugun.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/282193-62440-tugun.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/282193-62440-tugun.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/282193-62440-tugun.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/282193-62440-tugun.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/282193-62440-tugun.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/282193-62440-tugun.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/282193-62440-tugun.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/282193-62440-tugun.jpg",
+            "image_tags":"All Images,Tugun"
+         },
+         "name":"Tugun"
+      },
+      {
+         "aliases":null,
+         "deck":"J.D. Hunt is a businessman that has a strong disdain for the Strangers.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/282420-195897-j-d-hunt.jpg",
+            "image_tags":"All Images,J.D. Hunt"
+         },
+         "name":"J.D. Hunt"
+      },
+      {
+         "aliases":"Gaius Julius Hunt",
+         "deck":"Guy Hunt is the son of J.D. Hunt, the president of NuWare.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/11149\/111492655\/7978926-guyhunt93060.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Guy Hunt"
+      },
+      {
+         "aliases":null,
+         "deck":"Doctor Horla works in La Clinique Du Parsival, a confidential medical clinic in Andorra. He is hired to help care for and cure Atom Bob of the Strangers.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/304392-60462-dr-horla.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/304392-60462-dr-horla.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/304392-60462-dr-horla.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/304392-60462-dr-horla.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/304392-60462-dr-horla.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/304392-60462-dr-horla.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/304392-60462-dr-horla.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/304392-60462-dr-horla.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/304392-60462-dr-horla.jpg",
+            "image_tags":"All Images,Doctor Horla"
+         },
+         "name":"Dr. Horla"
+      },
+      {
+         "aliases":"Theoderic\nKing of the Visigoths",
+         "deck":"Teknight is a robot inhabited by the soul of an ancient warrior and a former king of Gaul.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/298490-57236-teknight.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/298490-57236-teknight.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/298490-57236-teknight.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/298490-57236-teknight.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/298490-57236-teknight.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/298490-57236-teknight.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/298490-57236-teknight.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/298490-57236-teknight.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/298490-57236-teknight.jpg",
+            "image_tags":"All Images,Teknight"
+         },
+         "name":"Teknight"
+      },
+      {
+         "aliases":"Candy",
+         "deck":"Electrocute is an android that gained sentience and the power to generate electricity.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/13\/134753\/5994054-img_7386.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/13\/134753\/5994054-img_7386.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/13\/134753\/5994054-img_7386.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/13\/134753\/5994054-img_7386.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/13\/134753\/5994054-img_7386.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/13\/134753\/5994054-img_7386.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/13\/134753\/5994054-img_7386.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/13\/134753\/5994054-img_7386.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/13\/134753\/5994054-img_7386.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Electrocute"
+      },
+      {
+         "aliases":"Mr. Duck",
+         "deck":"Waddell is an employee of J.D. Hunt and one of his premiere scientists at NuWare Labs. He was in charge of creating Candy, a highly functional android that became ElectroCute of the Strangers.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/303417-93312-waddell.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/303417-93312-waddell.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/303417-93312-waddell.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/303417-93312-waddell.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/303417-93312-waddell.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/303417-93312-waddell.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/303417-93312-waddell.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/303417-93312-waddell.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/303417-93312-waddell.jpg",
+            "image_tags":"All Images,Waddell"
+         },
+         "name":"Waddell"
+      },
+      {
+         "aliases":null,
+         "deck":"Beater is an ultra with super strength. He is friends with M.C. Zed and gained his abilities during the Jumpstart, the same phenomena that also created the Strangers.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/303348-113298-beater.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/303348-113298-beater.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/303348-113298-beater.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/303348-113298-beater.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/303348-113298-beater.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/303348-113298-beater.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/303348-113298-beater.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/303348-113298-beater.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/303348-113298-beater.jpg",
+            "image_tags":"All Images,Beater"
+         },
+         "name":"Beater"
+      },
+      {
+         "aliases":null,
+         "deck":"M.C. Zed an ultra that can project blasts of sound waves. He gained his abilities due to the Jumpstart, which gave the Strangers their powers as well.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/3664\/303335-172216-m-c-zed.jpg",
+            "image_tags":"All Images,M.C. Zed"
+         },
+         "name":"M.C. Zed"
+      },
+      {
+         "aliases":"Jun the Swan\nG-3 Agatha June Jun Kelly Jennar\nG-2",
+         "deck":"Princess is the female member of the science ninja team known as G-Force.  She holds the rank of G-3, is code-named the Swan, and is the demolitions expert on the team.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/2\/25835\/591408-princess5.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/2\/25835\/591408-princess5.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/2\/25835\/591408-princess5.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/2\/25835\/591408-princess5.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/2\/25835\/591408-princess5.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/2\/25835\/591408-princess5.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/2\/25835\/591408-princess5.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/2\/25835\/591408-princess5.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/2\/25835\/591408-princess5.jpg",
+            "image_tags":"All Images,Princess (Comics)"
+         },
+         "name":"Princess"
+      },
+      {
+         "aliases":"Ryu Nakanishi Tiny Harper Hoot Owel Hootie G5 Ollie Keewani Rocky the Owl\nTiny ",
+         "deck":"Tiny is one of the strongest G-force team.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/2\/25835\/591372-battle_of_the_planets_10___aftermath___00___fc.jpg",
+            "image_tags":"All Images,Tiny (Comics)"
+         },
+         "name":"Tiny"
+      },
+      {
+         "aliases":null,
+         "deck":"Anderson is the Chief of Security of the International Science Organization (ISO) and creator of G-Force. He is Governing Board Member of United Global Alliance (UGA) and uses G-Force to protect Earth from the threat of Spectra led by Zoltar and the Luminous One.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/1\/15776\/696939-anderson.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/1\/15776\/696939-anderson.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/1\/15776\/696939-anderson.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/1\/15776\/696939-anderson.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/1\/15776\/696939-anderson.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/1\/15776\/696939-anderson.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/1\/15776\/696939-anderson.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/1\/15776\/696939-anderson.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/1\/15776\/696939-anderson.jpg",
+            "image_tags":"All Images,Director Anderson"
+         },
+         "name":"Director Anderson"
+      },
+      {
+         "aliases":"The Jungle Girl",
+         "deck":"Nyoka is a lovely white girl who faces countless dangers in the jungle.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/11115\/111152996\/4264732-cliphrd02h.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Nyoka"
+      },
+      {
+         "aliases":"Mark Dagon",
+         "deck":"The last dragon on the Earth, Dragon can shape-shift into human form and walk amongst man.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/77\/1222663-dragon1.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/77\/1222663-dragon1.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/77\/1222663-dragon1.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/77\/1222663-dragon1.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/77\/1222663-dragon1.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/77\/1222663-dragon1.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/77\/1222663-dragon1.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/77\/1222663-dragon1.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/77\/1222663-dragon1.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Dragon"
+      },
+      {
+         "aliases":null,
+         "deck":"Shiki was tailored to be Yuga's servant before her birth",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/77\/1535804-shiki_big.jpg",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/77\/1535804-shiki_big.jpg",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/77\/1535804-shiki_big.jpg",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/77\/1535804-shiki_big.jpg",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/77\/1535804-shiki_big.jpg",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/77\/1535804-shiki_big.jpg",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/77\/1535804-shiki_big.jpg",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/77\/1535804-shiki_big.jpg",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/77\/1535804-shiki_big.jpg",
+            "image_tags":"All Images"
+         },
+         "name":"Shiki"
+      },
+      {
+         "aliases":"Brigit",
+         "deck":"A dragon who can shape-shift into human form.",
+         "image":{
+            "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/11122\/111222211\/6373148-blank.png",
+            "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/11122\/111222211\/6373148-blank.png",
+            "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/11122\/111222211\/6373148-blank.png",
+            "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/11122\/111222211\/6373148-blank.png",
+            "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/11122\/111222211\/6373148-blank.png",
+            "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/11122\/111222211\/6373148-blank.png",
+            "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/11122\/111222211\/6373148-blank.png",
+            "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/11122\/111222211\/6373148-blank.png",
+            "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/11122\/111222211\/6373148-blank.png",
+            "image_tags":",All Images,asgard,Avatars,carpediem081108,Classified: Dark Syntinel,Custom Pack,dp,Heroes\/Villains,Jeff Hardy,Kurama,Mack's Gallery,Mangekyou Sharingan,Mis,My Off-Topic Shizzzzzz,My Pics,Old pics,other,Other Pictures,Pics for my Background,pics of characters i found,Sorting,Spider-Man and Etc.. Gallery,SPIRALMIND,Stuff I Made on the Computer,yeah."
+         },
+         "name":"Serpent"
+      }
+   ],
+   "version":"1.0"
+}
