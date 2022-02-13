@@ -8,8 +8,26 @@
 import Foundation
 
 struct APIConstants {
-    static let apiURL = URL(string: "https://comicvine.gamespot.com/api/characters/?api_key=d5b4f817d44b65b1d8cfcea1f103afe7b409ebb4&format=json&field_list=name,deck,aliases,image")
-//    private static let apiURL = "https://comicvine.gamespot.com/api/"
-//    private static let apiKey = "d5b4f817d44b65b1d8cfcea1f103afe7b409ebb4"
+    
+    private static let scheme = "https"
+    private static let host = "comicvine.gamespot.com"
+    private static let apiKey = "d5b4f817d44b65b1d8cfcea1f103afe7b409ebb4"
+    
+    static func getCharactersURL() -> URL {
+        return createURLFrom(path: "/api/characters/", andQueries: [
+            URLQueryItem(name: "api_key", value: apiKey),
+            URLQueryItem(name: "format", value: "json"),
+            URLQueryItem(name: "field_list", value: "name,deck,aliases,image"),
+        ])
+    }
+    
+    private static func createURLFrom(path: String, andQueries: [URLQueryItem]) -> URL {
+        var components = URLComponents()
+        components.scheme = scheme
+        components.host = host
+        components.path = path
+        components.queryItems = andQueries
+        return components.url!
+    }
 }
 

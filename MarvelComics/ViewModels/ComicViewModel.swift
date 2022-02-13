@@ -40,7 +40,7 @@ class ComicViewModel {
     //MARK:- Helper Methods
     /// Fetches Comics list
     func fetchComicData() {
-        let comicsRequest = URLRequest(url: APIConstants.apiURL!)
+        let comicsRequest = URLRequest(url: APIConstants.getCharactersURL())
         URLSession.shared.dataTask(with: comicsRequest) { [weak self] (data, response, error) in
             if let error = error {
                 debugPrint("Request failed with \(error)")

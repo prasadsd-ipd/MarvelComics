@@ -20,7 +20,7 @@ class ComicTableViewCell: UITableViewCell {
     @IBOutlet weak var comicImageView: UIImageView!
     @IBOutlet weak var comicTitle: UILabel!
     @IBOutlet weak var comicAlaises: UILabel!
-    @IBOutlet weak var comicDescription: UILabel!
+    @IBOutlet weak var comicDescription: UITextView!
     
     // MARK: - Initialization
     
