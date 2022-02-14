@@ -8,16 +8,12 @@
 
 import Foundation
 
+typealias DidFetchDataCompletion = (IssuesResponse?, ComicsDataError?) -> Void
+
 class ComicViewModel {
     
     //MARK:- Types
     
-    enum ComicsDataError {
-        case noComicData
-    }
-    
-    typealias DidFetchDataCompletion = (ComicsDataError?) -> Void
-
     //MARK:- Properties
     
     var didFetchDataCompletion: DidFetchDataCompletion?
@@ -40,20 +36,10 @@ class ComicViewModel {
     //MARK:- Helper Methods
     /// Fetches Comics list
     func fetchComicData() {
-        let comicsRequest = URLRequest(url: APIConstants.getCharactersURL())
-        URLSession.shared.dataTask(with: comicsRequest) { [weak self] (data, response, error) in
-            if let error = error {
-                debugPrint("Request failed with \(error)")
-                self?.didFetchDataCompletion?(.noComicData)
-            } else if let data = data {
-                do {
-                    let issuesResponse = try JSONDecoder().decode(IssuesResponse.self, from: data)
-                    self?.comicsList = issuesResponse.results
-                    self?.didFetchDataCompletion?(nil)
-                } catch let error as NSError {
-                    debugPrint("Parsing failed with \(error)")
-                }
-            }
-        }.resume()
+        
+        NetworkManager().getComicsData { [weak self] issuesResponse, error in
+            self?.comicsList = issuesResponse?.results
+            self?.didFetchDataCompletion?(issuesResponse, nil)
+        }
     }
 }

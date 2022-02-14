@@ -34,7 +34,7 @@ class ViewController: UIViewController {
 
     //MARK:- Custom Methods
     private func setupViewModel(with viewModel: ComicViewModel) {
-        viewModel.didFetchDataCompletion = { [weak self] (error) in
+        viewModel.didFetchDataCompletion = { [weak self] (data, error) in
             if error != nil {
                 self?.showAlert(of: .noDataAvailable)
             } else {

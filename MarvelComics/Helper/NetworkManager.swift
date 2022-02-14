@@ -7,40 +7,45 @@
 
 import Foundation
 
-enum NetworkError: Error {
-    case invalidUrl
-    case invalidData
-    case noData
+enum ComicsDataError {
+    case noComicData
+    case invalidURL
 }
 
 class NetworkManager {
-    
-    static let shared = NetworkManager()
-    
-    private init() {}
-    
-    func createRequest(for url: URL, method httpMethod: String) -> URLRequest? {
+        
+    private func createRequest(for url: URL, method httpMethod: String) -> URLRequest? {
         var request = URLRequest(url: url)
         request.httpMethod = httpMethod
         request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
         return request
     }
     
-    func executeRequest<T: Codable>(request: URLRequest, completion: ((T?, Error?) -> Void)?) {
+    private func executeRequest(request: URLRequest, completion: DidFetchDataCompletion?) {
         let session = URLSession(configuration: .default)
         let dataTask = session.dataTask(with: request) { (data, response, error) in
             guard let data = data else {
-                completion?(nil, NetworkError.noData)
+                completion?(nil, .noComicData)
                 return
             }
-            if let decodedResponse = try? JSONDecoder().decode(T.self, from: data) {
+            if let decodedResponse = try? JSONDecoder().decode(IssuesResponse.self, from: data) {
                 DispatchQueue.main.async {
+                    debugPrint("response: \(decodedResponse)")
                     completion?(decodedResponse, nil)
                 }
             } else {
-                completion?(nil, NetworkError.invalidData)
+                completion?(nil, .noComicData)
             }
         }
         dataTask.resume()
+    }
+    
+    func getComicsData(completion: DidFetchDataCompletion?) {
+        
+        guard let request = createRequest(for: APIConstants.getCharactersURL(), method: "GET") else {
+            completion?(nil, .invalidURL)
+            return
+        }
+        executeRequest(request: request, completion: completion)
     }
 }
