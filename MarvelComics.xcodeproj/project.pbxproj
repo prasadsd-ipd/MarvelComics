@@ -77,6 +77,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32837E827C073D7009A2C5F /* ComicCell */ = {
+			isa = PBXGroup;
+			children = (
+				D3BAAFDD27A69AA4003387B1 /* ComicCellViewModel.swift */,
+			);
+			path = ComicCell;
+			sourceTree = "<group>";
+		};
+		D32837E927C073EF009A2C5F /* Comic */ = {
+			isa = PBXGroup;
+			children = (
+				D3BAAFDC27A69AA3003387B1 /* ComicViewModel.swift */,
+			);
+			path = Comic;
+			sourceTree = "<group>";
+		};
+		D32837EA27C07416009A2C5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D394AD7827A15AA700B49623 /* ViewControllers */,
+				D3BAAFD927A698D1003387B1 /* Custom Cells */,
+				D394AD7927A15ABF00B49623 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D32837EB27C07446009A2C5F /* ComicCell */ = {
+			isa = PBXGroup;
+			children = (
+				D3BAAFDA27A698F2003387B1 /* ComicTableViewCell.swift */,
+			);
+			path = ComicCell;
+			sourceTree = "<group>";
+		};
+		D32837EC27C074E5009A2C5F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D394AD6827A159D300B49623 /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		D394AD5627A159D300B49623 = {
 			isa = PBXGroup;
 			children = (
@@ -98,16 +140,14 @@
 		D394AD6127A159D300B49623 /* MarvelComics */ = {
 			isa = PBXGroup;
 			children = (
-				D3BAAFE427A6A3C9003387B1 /* Extensions */,
-				D3BAAFE027A69C8D003387B1 /* ViewModels */,
-				D3BAAFD927A698D1003387B1 /* Custom Cells */,
-				D3BAAFD627A660E5003387B1 /* Models */,
-				D394AD7D27A1A5B900B49623 /* Constants */,
-				D394AD7C27A196C900B49623 /* Helper */,
 				D394AD7627A15A3400B49623 /* AppDelegate */,
 				D394AD7727A15A8200B49623 /* SceneDelegate */,
-				D394AD7827A15AA700B49623 /* ViewControllers */,
-				D394AD7927A15ABF00B49623 /* Storyboards */,
+				D3BAAFD627A660E5003387B1 /* Models */,
+				D32837EA27C07416009A2C5F /* View */,
+				D3BAAFE027A69C8D003387B1 /* ViewModels */,
+				D3BAAFE427A6A3C9003387B1 /* Extensions */,
+				D394AD7D27A1A5B900B49623 /* Constants */,
+				D394AD7C27A196C900B49623 /* Helper */,
 				D394AD7A27A15ACF00B49623 /* Resources */,
 				D394AD7B27A15AE300B49623 /* Supporting Files */,
 			);
@@ -141,7 +181,7 @@
 		D394AD7927A15ABF00B49623 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				D394AD6827A159D300B49623 /* Main.storyboard */,
+				D32837EC27C074E5009A2C5F /* ViewController */,
 				D394AD6D27A159D500B49623 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -190,7 +230,7 @@
 		D3BAAFD927A698D1003387B1 /* Custom Cells */ = {
 			isa = PBXGroup;
 			children = (
-				D3BAAFDA27A698F2003387B1 /* ComicTableViewCell.swift */,
+				D32837EB27C07446009A2C5F /* ComicCell */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -198,8 +238,8 @@
 		D3BAAFE027A69C8D003387B1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				D3BAAFDD27A69AA4003387B1 /* ComicCellViewModel.swift */,
-				D3BAAFDC27A69AA3003387B1 /* ComicViewModel.swift */,
+				D32837E827C073D7009A2C5F /* ComicCell */,
+				D32837E927C073EF009A2C5F /* Comic */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
