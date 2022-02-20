@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ViewModelDelegate {
 
     //MARK:- Types
     private enum Alerts {
@@ -22,29 +22,25 @@ class ViewController: UIViewController {
             guard let viewModel = viewModel else {
                 return
             }
-            setupViewModel(with: viewModel)
+            viewModel.delegate = self
         }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
     }
 
     //MARK:- Custom Methods
-    private func setupViewModel(with viewModel: ComicViewModel) {
-        viewModel.didFetchDataCompletion = { [weak self] (data, error) in
-            if error != nil {
-                self?.showAlert(of: .noDataAvailable)
-            } else {
-                DispatchQueue.main.async {
-                    self?.comicsTableView.reloadData()
-                }
-            }
+    ///Delegate method to responde on API response.
+    func dataFetchComplete(success: Bool, message: String) {
+        if success {
+            self.comicsTableView.reloadData()
+        } else {
+            self.showAlert(of: .noDataAvailable)
         }
     }
-
+    
     ///Helper mehtod to show alerts
     private func showAlert(of type: Alerts) {
         let title: String
@@ -62,7 +58,6 @@ class ViewController: UIViewController {
         
         present(alertController, animated: true)
     }
-
 }
 
 extension ViewController: UITableViewDataSource {
@@ -82,6 +77,4 @@ extension ViewController: UITableViewDataSource {
         
         return cell
     }
-    
-    
 }

@@ -15,8 +15,6 @@ struct APIConstants {
     
     static func getCharactersURL() -> URL {
         return createURLFrom(path: "/api/characters/", andQueries: [
-            URLQueryItem(name: "api_key", value: apiKey),
-            URLQueryItem(name: "format", value: "json"),
             URLQueryItem(name: "field_list", value: "name,deck,aliases,image"),
         ])
     }
@@ -26,7 +24,9 @@ struct APIConstants {
         components.scheme = scheme
         components.host = host
         components.path = path
-        components.queryItems = andQueries
+        components.queryItems = [URLQueryItem(name: "api_key", value: apiKey),
+                                 URLQueryItem(name: "format", value: "json")]
+        components.queryItems?.append(contentsOf: andQueries)
         return components.url!
     }
 }
