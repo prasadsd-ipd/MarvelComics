@@ -7,7 +7,10 @@ iOS Simulator used : iPhone 13 Pro Max
 Swift 5
 Simple mobile app where data is fetched from https://comicvine.gamespot.com/
 
-Design pattern used: MVVM
+Design pattern used: 
+MVVM
+Dependency Injection
+Delegation
 
 Model View View-Model pattern is used as design pattern for developing the app
 

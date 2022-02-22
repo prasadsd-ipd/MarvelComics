@@ -24,7 +24,7 @@ class ComicViewModel {
     
     weak var delegate: ViewModelDelegate?
     
-    var comicsList: [Result]?
+    private var comicsList: [Result]?
     
     var totalComics: Int {
         return comicsList?.count ?? 0

@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let rootViewController = window?.rootViewController as? ViewController else {
             fatalError("ViewController not found")
         }
+        // Inject View model to View controller as a dependency
         let comicsViewModel = ComicViewModel()
         rootViewController.viewModel = comicsViewModel
     }
