@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D314D5F327CF677E009369EF /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314D5F227CF677E009369EF /* ViewControllerTests.swift */; };
+		D314D5F527D1E7B3009369EF /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314D5F427D1E7B3009369EF /* StringConstants.swift */; };
 		D394AD6327A159D300B49623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394AD6227A159D300B49623 /* AppDelegate.swift */; };
 		D394AD6527A159D300B49623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394AD6427A159D300B49623 /* SceneDelegate.swift */; };
 		D394AD6727A159D300B49623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394AD6627A159D300B49623 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D314D5F227CF677E009369EF /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		D314D5F427D1E7B3009369EF /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		D394AD5F27A159D300B49623 /* MarvelComics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelComics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D394AD6227A159D300B49623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D394AD6427A159D300B49623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				D394AD7E27A1A5FF00B49623 /* URLConstants.swift */,
+				D314D5F427D1E7B3009369EF /* StringConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			children = (
 				D3BAAFF427A7E200003387B1 /* ComicViewModelTests.swift */,
 				D3BAAFF627A7E2A8003387B1 /* ComicCellViewModelTests.swift */,
+				D314D5F227CF677E009369EF /* ViewControllerTests.swift */,
 			);
 			path = TestCases;
 			sourceTree = "<group>";
@@ -390,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BAAFE627A6A423003387B1 /* UIImageView+Extensions.swift in Sources */,
+				D314D5F527D1E7B3009369EF /* StringConstants.swift in Sources */,
 				D394AD6727A159D300B49623 /* ViewController.swift in Sources */,
 				D394AD7F27A1A5FF00B49623 /* URLConstants.swift in Sources */,
 				D3BAAFDB27A698F2003387B1 /* ComicTableViewCell.swift in Sources */,
@@ -408,6 +415,7 @@
 			files = (
 				D3BAAFF727A7E2A8003387B1 /* ComicCellViewModelTests.swift in Sources */,
 				D3BAB00127A80DF0003387B1 /* XCTestCase.swift in Sources */,
+				D314D5F327CF677E009369EF /* ViewControllerTests.swift in Sources */,
 				D3BAAFF527A7E200003387B1 /* ComicViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

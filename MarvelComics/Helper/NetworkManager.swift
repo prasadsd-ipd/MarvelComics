@@ -21,7 +21,7 @@ class NetworkManager {
         return request
     }
     
-    private func executeRequest(request: URLRequest, completion: DidFetchDataCompletion?) {
+    private func executeRequest<T: Codable>(request: URLRequest, completion: ((T?, ComicsDataError?)-> Void)?) {
         let session = URLSession(configuration: .default)
         let dataTask = session.dataTask(with: request) { (data, response, error) in
             guard let data = data else {
@@ -31,7 +31,7 @@ class NetworkManager {
             if let decodedResponse = try? JSONDecoder().decode(IssuesResponse.self, from: data) {
                 DispatchQueue.main.async {
                     debugPrint("response: \(decodedResponse)")
-                    completion?(decodedResponse, nil)
+                    completion?(decodedResponse as? T, nil)
                 }
             } else {
                 completion?(nil, .noComicData)

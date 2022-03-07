@@ -42,8 +42,8 @@ class ComicViewModelTests: XCTestCase {
     func testViewModelForIndex() {
         let comicCellViewModel = viewModel.cellViewModel(for: 6)
         
-        XCTAssertEqual(comicCellViewModel.name, "Zepha")
-        XCTAssertEqual(comicCellViewModel.aliases, "No Aliases")
+        XCTAssertEqual(comicCellViewModel?.name, "Zepha")
+        XCTAssertEqual(comicCellViewModel?.aliases, "No Aliases")
     }
 
 }

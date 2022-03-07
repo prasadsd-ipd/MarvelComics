@@ -23,14 +23,18 @@ extension UIImageView {
             return
         }
         
-        DispatchQueue.global().async { [weak self] in
-            if let data = try? Data(contentsOf: url) {
-                guard let imageToCache = UIImage(data: data) else { return }
-                imageCache.setObject(imageToCache, forKey: urlString as AnyObject)
-                DispatchQueue.main.async {
-                    self?.image = UIImage(data: data)
-                }
+        getData(from: url) { data, response, error in
+            guard let data = data, error == nil else { return }
+            guard let imageToCache = UIImage(data: data) else { return }
+            imageCache.setObject(imageToCache, forKey: urlString as AnyObject)
+            //Here image is being downloaded asynchronously, So image will be updated on UI via main thread.
+            DispatchQueue.main.async() { [weak self] in
+                self?.image = imageToCache
             }
         }
+    }
+    
+    func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+        URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
     }
 }

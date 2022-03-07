@@ -9,11 +9,6 @@ import UIKit
 
 class ViewController: UIViewController, ViewModelDelegate {
 
-    //MARK:- Types
-    private enum Alerts {
-        case noDataAvailable
-    }
-
     //MARK:- Properties
     @IBOutlet weak var comicsTableView: UITableView!
 
@@ -33,7 +28,7 @@ class ViewController: UIViewController, ViewModelDelegate {
 
     //MARK:- Custom Methods
     ///Delegate method to responde on API response.
-    func dataFetchComplete(success: Bool, message: String) {
+    func dataFetchComplete(success: Bool) {
         if success {
             self.comicsTableView.reloadData()
         } else {
@@ -41,23 +36,6 @@ class ViewController: UIViewController, ViewModelDelegate {
         }
     }
     
-    ///Helper mehtod to show alerts
-    private func showAlert(of type: Alerts) {
-        let title: String
-        let message: String
-        
-        switch type {
-        case .noDataAvailable:
-            title = "Unable to fetch data"
-            message = "The application is unable to fetch data. Please check your network connection."
-        }
-        
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-        alertController.addAction(okAction)
-        
-        present(alertController, animated: true)
-    }
 }
 
 extension ViewController: UITableViewDataSource {
@@ -73,8 +51,34 @@ extension ViewController: UITableViewDataSource {
         }
         
         // Configuring cell
-        cell.configure(with: viewModel.cellViewModel(for: indexPath.row))
+        cell.configure(with: viewModel.cellViewModel(for: indexPath.row) ?? ComicCellViewModel())
         
         return cell
+    }
+}
+
+extension UIViewController {
+    
+    //MARK:- Types
+    enum Alerts {
+        case noDataAvailable
+    }
+
+    ///Helper mehtod to show alerts
+    func showAlert(of type: Alerts) {
+        var title: String
+        var message: String
+        
+        switch type {
+        case .noDataAvailable:
+            title = StringConstants.noDataTitle
+            message = StringConstants.noDataMessage
+        }
+        
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        alertController.addAction(okAction)
+        
+        present(alertController, animated: true)
     }
 }

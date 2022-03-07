@@ -11,7 +11,7 @@ import Foundation
 typealias DidFetchDataCompletion = (IssuesResponse?, ComicsDataError?) -> Void
 
 protocol ViewModelDelegate: AnyObject {
-    func dataFetchComplete (success: Bool, message: String)
+    func dataFetchComplete (success: Bool)
 }
 
 class ComicViewModel {
@@ -24,7 +24,7 @@ class ComicViewModel {
     
     weak var delegate: ViewModelDelegate?
     
-    private var comicsList: [Result]?
+    var comicsList: [Result]?
     
     var totalComics: Int {
         return comicsList?.count ?? 0
@@ -35,8 +35,9 @@ class ComicViewModel {
     init() {
         fetchComicData()
     }
-    func cellViewModel(for index: Int) -> ComicCellViewModel {
-        return ComicCellViewModel(comicData: (comicsList?[index])!)
+    
+    func cellViewModel(for index: Int) -> ComicCellViewModel? {
+        return ComicCellViewModel(comicData: (comicsList?[index]))
     }
     
     //MARK:- Helper Methods
@@ -45,12 +46,11 @@ class ComicViewModel {
         
         NetworkManager().getComicsData { [weak self] response, error in
             guard let issuesResponse = response else {
-                self?.delegate?.dataFetchComplete(success: false, message: "Data load failed")
+                self?.delegate?.dataFetchComplete(success: false)
                 return
             }
             self?.comicsList = issuesResponse.results
-//            self?.didFetchDataCompletion?(issuesResponse, nil)
-            self?.delegate?.dataFetchComplete(success: true, message: "Data loaded")
+            self?.delegate?.dataFetchComplete(success: true)
         }
     }
 }
