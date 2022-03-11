@@ -22,6 +22,12 @@ class ViewControllerTests: XCTestCase {
         viewControllerTests.viewModel = viewModel
         viewControllerTests.loadView()
         viewControllerTests.viewDidLoad()
+        
+        //Loading data from stub
+        let data = loadStub(name: "ResponseTestData", extension: "json")
+        let decoder = JSONDecoder()
+        let comics = try! decoder.decode(IssuesResponse.self, from: data)
+        viewControllerTests.viewModel?.comicsList = comics.results
     }
 
     override func tearDownWithError() throws {
@@ -56,16 +62,18 @@ class ViewControllerTests: XCTestCase {
         }
 
     func testNumberofRowInTableView() {
-        //Loading data from stub
-        let data = loadStub(name: "ResponseTestData", extension: "json")
-        let decoder = JSONDecoder()
-        let comics = try! decoder.decode(IssuesResponse.self, from: data)
-        viewControllerTests.viewModel?.comicsList = comics.results
         
         let numberOfRow = viewControllerTests?.tableView((viewControllerTests?.comicsTableView)!, numberOfRowsInSection: 0)
           XCTAssertEqual(numberOfRow, 33, "Number of rows in tableview should match with thirty three")
 
        }
+    
+    func testTableCellLabels() {
+        
+        let cell = viewControllerTests.tableView(viewControllerTests.comicsTableView, cellForRowAt: IndexPath(row: 9, section: 0)) as? ComicTableViewCell
+        XCTAssertEqual(cell?.comicTitle.text, "Neuronne")
+        XCTAssertEqual(cell?.comicAlaises.text, "Neuronn")
+    }
     
     func testShowAlert() {
         viewControllerTests.showAlert(of: .noDataAvailable)
@@ -74,10 +82,6 @@ class ViewControllerTests: XCTestCase {
     }
     
     func testFetchingCompleteWithSuccess() {
-        viewControllerTests.dataFetchComplete(success: true)
-    }
-    
-    func testFetchingCompleteWithFailure() {
-        viewControllerTests.dataFetchComplete(success: false)
+        viewControllerTests.dataFetchComplete(error: nil)
     }
 }

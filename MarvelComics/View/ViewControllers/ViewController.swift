@@ -28,14 +28,13 @@ class ViewController: UIViewController, ViewModelDelegate {
 
     //MARK:- Custom Methods
     ///Delegate method to responde on API response.
-    func dataFetchComplete(success: Bool) {
-        if success {
+    func dataFetchComplete(error: Error?) {
+        if error == nil {
             self.comicsTableView.reloadData()
         } else {
             self.showAlert(of: .noDataAvailable)
         }
     }
-    
 }
 
 extension ViewController: UITableViewDataSource {
@@ -52,33 +51,6 @@ extension ViewController: UITableViewDataSource {
         
         // Configuring cell
         cell.configure(with: viewModel.cellViewModel(for: indexPath.row) ?? ComicCellViewModel())
-        
         return cell
-    }
-}
-
-extension UIViewController {
-    
-    //MARK:- Types
-    enum Alerts {
-        case noDataAvailable
-    }
-
-    ///Helper mehtod to show alerts
-    func showAlert(of type: Alerts) {
-        var title: String
-        var message: String
-        
-        switch type {
-        case .noDataAvailable:
-            title = StringConstants.noDataTitle
-            message = StringConstants.noDataMessage
-        }
-        
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-        alertController.addAction(okAction)
-        
-        present(alertController, animated: true)
     }
 }

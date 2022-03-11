@@ -48,4 +48,8 @@ class NetworkManager {
         }
         executeRequest(request: request, completion: completion)
     }
+    
+    func getImageData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+        URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
+    }
 }

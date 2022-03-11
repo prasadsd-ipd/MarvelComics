@@ -23,7 +23,7 @@ extension UIImageView {
             return
         }
         
-        getData(from: url) { data, response, error in
+        NetworkManager().getImageData(from: url) { data, response, error in
             guard let data = data, error == nil else { return }
             guard let imageToCache = UIImage(data: data) else { return }
             imageCache.setObject(imageToCache, forKey: urlString as AnyObject)
@@ -32,9 +32,5 @@ extension UIImageView {
                 self?.image = imageToCache
             }
         }
-    }
-    
-    func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
-        URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
     }
 }
