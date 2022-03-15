@@ -11,10 +11,15 @@ import XCTest
 class ComicViewModelTests: XCTestCase {
 
     // MARK: - Properties
-    let viewModel = ComicViewModel()
+    var networkManager: MockNetworkManager!
+    var viewModel: ComicViewModel!
 
     override func setUp() {
         super.setUp()
+        
+        // Initialising properties
+        networkManager = MockNetworkManager()
+        viewModel = ComicViewModel(with: networkManager)
         
         // Load Stub
         let data = loadStub(name: "ResponseTestData", extension: "json")
@@ -25,8 +30,9 @@ class ComicViewModelTests: XCTestCase {
         // Initialize  Response
         let comics = try! decoder.decode(IssuesResponse.self, from: data)
 
+        networkManager.mockedResponse = comics
         viewModel.comicsList = comics.results
-
+        
     }
 
     override func tearDown() {
@@ -46,4 +52,11 @@ class ComicViewModelTests: XCTestCase {
         XCTAssertEqual(comicCellViewModel?.aliases, "No Aliases")
     }
 
+    func testFetchComicData() {
+        
+        networkManager.getComicsData { response, error in
+            XCTAssertNotNil(response)
+        }
+        
+    }
 }

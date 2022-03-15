@@ -11,7 +11,7 @@ import XCTest
 class ViewControllerTests: XCTestCase {
     var viewControllerTests : ViewController!
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let viewModel = ComicViewModel()
+    let viewModel = ComicViewModel(with: NetworkManager())
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
