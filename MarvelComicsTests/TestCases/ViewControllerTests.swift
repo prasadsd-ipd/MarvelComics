@@ -68,7 +68,7 @@ class ViewControllerTests: XCTestCase {
 
        }
     
-    func testTableCellLabels() {
+    func testTableCellForRowAtIndexPath() {
         
         let cell = viewControllerTests.tableView(viewControllerTests.comicsTableView, cellForRowAt: IndexPath(row: 9, section: 0)) as? ComicTableViewCell
         XCTAssertEqual(cell?.comicTitle.text, "Neuronne")
@@ -83,5 +83,10 @@ class ViewControllerTests: XCTestCase {
     
     func testFetchingCompleteWithSuccess() {
         viewControllerTests.dataFetchComplete(error: nil)
+    }
+    
+    func testFetchingCompleteWithFailure() {
+        let error = NSError(domain:"", code:404, userInfo:[ NSLocalizedDescriptionKey: "Some error occurred"]) as Error
+        viewControllerTests.dataFetchComplete(error: error)
     }
 }
