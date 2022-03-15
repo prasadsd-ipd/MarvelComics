@@ -22,6 +22,8 @@ class ComicViewModel {
     
     weak var delegate: ViewModelDelegate?
     
+    let networkManager: ComicNetworkHandler
+    
     var comicsList: [Result]?
     
     var totalComics: Int {
@@ -30,7 +32,8 @@ class ComicViewModel {
     
     //MARK:- Initialization
     
-    init() {
+    init(with manager: ComicNetworkHandler) {
+        self.networkManager = manager
         fetchComicData()
     }
     
@@ -42,7 +45,7 @@ class ComicViewModel {
     /// Fetches Comics list
     func fetchComicData() {
         
-        NetworkManager().getComicsData { [weak self] response, error in
+        networkManager.getComicsData { [weak self] response, error in
             guard let issuesResponse = response else {
                 if let error = error {
                     self?.delegate?.dataFetchComplete(error: error as? Error)

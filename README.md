@@ -7,7 +7,7 @@ iOS Simulator used : iPhone 13 Pro Max
 Swift 5
 Simple mobile app where data is fetched from https://comicvine.gamespot.com/
 
-Design pattern used: 
+##Design pattern used: 
 MVVM
 Dependency Injection
 Delegation
@@ -18,13 +18,15 @@ Good project structure and grouping is followed. Placed all files seperately in 
 
 Implemented Escaping Clousers (completion handlers) for handling the API response
 
-An Extension added for UIImageView with to download and cache the images
+An Extension added for UIImageView to download and cache the images
 
 Implicitly unwrapped optional are used at some places for convinience
 
 
-Unit Testing
+##Unit Testing
 
-Stub is used to test the cases written, where JSON is fetched and stored locally to fecth the data while testing.
+###Stubbing
+    Stub is used to test the cases written, where JSON is fetched and stored locally to fecth the data while testing.
 
-Minimal test cases are written.
+###Mocking
+    Network manager class is mocked for response data.

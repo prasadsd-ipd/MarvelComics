@@ -10,18 +10,12 @@ import Foundation
 enum ComicsDataError {
     case noComicData
     case invalidURL
+    case invalidJson
 }
 
-class NetworkManager {
-        
-    private func createRequest(for url: URL, method httpMethod: String) -> URLRequest? {
-        var request = URLRequest(url: url)
-        request.httpMethod = httpMethod
-        request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        return request
-    }
-    
-    private func executeRequest<T: Codable>(request: URLRequest, completion: ((T?, ComicsDataError?)-> Void)?) {
+class NetworkManager: ComicNetworkHandler {
+            
+    func executeRequest<T: Codable>(request: URLRequest, completion: ((T?, ComicsDataError?)-> Void)?) {
         let session = URLSession(configuration: .default)
         let dataTask = session.dataTask(with: request) { (data, response, error) in
             guard let data = data else {
@@ -34,22 +28,10 @@ class NetworkManager {
                     completion?(decodedResponse as? T, nil)
                 }
             } else {
-                completion?(nil, .noComicData)
+                completion?(nil, .invalidJson)
             }
         }
         dataTask.resume()
     }
     
-    func getComicsData(completion: DidFetchDataCompletion?) {
-        
-        guard let request = createRequest(for: APIConstants.getCharactersURL(), method: "GET") else {
-            completion?(nil, .invalidURL)
-            return
-        }
-        executeRequest(request: request, completion: completion)
-    }
-    
-    func getImageData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
-        URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
-    }
 }

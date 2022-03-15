@@ -10,6 +10,9 @@
 		D314D5F327CF677E009369EF /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314D5F227CF677E009369EF /* ViewControllerTests.swift */; };
 		D314D5F527D1E7B3009369EF /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314D5F427D1E7B3009369EF /* StringConstants.swift */; };
 		D343E45C27D9FE6800158E60 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343E45B27D9FE6800158E60 /* UIViewController+Extension.swift */; };
+		D343E45E27E0EB6C00158E60 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343E45D27E0EB6C00158E60 /* NetworkManagerTests.swift */; };
+		D343E46127E0F36700158E60 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343E46027E0F36700158E60 /* MockNetworkManager.swift */; };
+		D343E46327E10E7B00158E60 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343E46227E10E7B00158E60 /* Protocols.swift */; };
 		D394AD6327A159D300B49623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394AD6227A159D300B49623 /* AppDelegate.swift */; };
 		D394AD6527A159D300B49623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394AD6427A159D300B49623 /* SceneDelegate.swift */; };
 		D394AD6727A159D300B49623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394AD6627A159D300B49623 /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 		D314D5F227CF677E009369EF /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		D314D5F427D1E7B3009369EF /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		D343E45B27D9FE6800158E60 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D343E45D27E0EB6C00158E60 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		D343E46027E0F36700158E60 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		D343E46227E10E7B00158E60 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		D394AD5F27A159D300B49623 /* MarvelComics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelComics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D394AD6227A159D300B49623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D394AD6427A159D300B49623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +129,14 @@
 				D394AD6827A159D300B49623 /* Main.storyboard */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D343E45F27E0F34B00158E60 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D343E46027E0F36700158E60 /* MockNetworkManager.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		D394AD5627A159D300B49623 = {
@@ -213,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				D3BA15A927B7E7CC007AA181 /* NetworkManager.swift */,
+				D343E46227E10E7B00158E60 /* Protocols.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -263,6 +278,7 @@
 		D3BAAFEC27A7DFFE003387B1 /* MarvelComicsTests */ = {
 			isa = PBXGroup;
 			children = (
+				D343E45F27E0F34B00158E60 /* Mocks */,
 				D3BAAFFF27A80DBA003387B1 /* Extension */,
 				D3BAAFF827A80A0A003387B1 /* Stub */,
 				D3BAAFFE27A80D88003387B1 /* TestCases */,
@@ -284,6 +300,7 @@
 				D3BAAFF427A7E200003387B1 /* ComicViewModelTests.swift */,
 				D3BAAFF627A7E2A8003387B1 /* ComicCellViewModelTests.swift */,
 				D314D5F227CF677E009369EF /* ViewControllerTests.swift */,
+				D343E45D27E0EB6C00158E60 /* NetworkManagerTests.swift */,
 			);
 			path = TestCases;
 			sourceTree = "<group>";
@@ -407,6 +424,7 @@
 				D394AD6327A159D300B49623 /* AppDelegate.swift in Sources */,
 				D3BA15AA27B7E7CC007AA181 /* NetworkManager.swift in Sources */,
 				D3BAAFDE27A69AA4003387B1 /* ComicViewModel.swift in Sources */,
+				D343E46327E10E7B00158E60 /* Protocols.swift in Sources */,
 				D394AD6527A159D300B49623 /* SceneDelegate.swift in Sources */,
 				D3BAAFD827A6611A003387B1 /* IssuesModel.swift in Sources */,
 				D3BAAFDF27A69AA4003387B1 /* ComicCellViewModel.swift in Sources */,
@@ -417,6 +435,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D343E45E27E0EB6C00158E60 /* NetworkManagerTests.swift in Sources */,
+				D343E46127E0F36700158E60 /* MockNetworkManager.swift in Sources */,
 				D3BAAFF727A7E2A8003387B1 /* ComicCellViewModelTests.swift in Sources */,
 				D3BAB00127A80DF0003387B1 /* XCTestCase.swift in Sources */,
 				D314D5F327CF677E009369EF /* ViewControllerTests.swift in Sources */,
